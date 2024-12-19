@@ -46,8 +46,8 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: [...fontFamily.sans],
-				serif: [...fontFamily.serif],
+				sans: [...fontFamily.sans, 'Noto Sans CJK', 'sans-serif'],
+				serif: [...fontFamily.serif, 'Source Han Serif', 'serif'],
 			},
 			transitionProperty: {
 				height: "height",
